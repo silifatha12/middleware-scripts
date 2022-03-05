@@ -6,6 +6,13 @@
 
 ###................Description...............................
 ###Automation of the installation of Sonarqube
+if
+[ $USER != root ]
+then
+echo 
+echo -e "\n You need root access to run this\n"
+exit 2
+fi 
 echo "Installation of Sonarqube in progress. Be patient"
 echo
 echo
