@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #This script install Docker on Linux, Centos7..
-#Author:Alex
-#Date: Mars, 06/2022.
+#Author:Ola
+#Date: 03/2022.
 
 echo "\n Let check your login privileges for this action\n"
 if [ $UID -eq 0 ]
